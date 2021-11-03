@@ -1,0 +1,17 @@
+from shiyan8 import myQueue
+
+q = myQueue.MyQueue()
+print(q.get())
+print('---------------')
+print(q.put('b'))
+print(q.put('a'))
+q.show()
+print('---------------')
+print('当前队列是否已满：', q.isFull())
+print('---------------')
+print(q.put('s'))
+print(q.put('q'))
+print(q.put('r'))
+print(q.put('p'))
+print(q.put('s'))
+q.show()
